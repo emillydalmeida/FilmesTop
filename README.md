@@ -15,13 +15,13 @@ Foi utilizado PostgreSQL para criar o banco de dados relacional.
 
 # Endpoints
 
-1. Homepage
+#1. Homepage
 
 GET /
 
 Descrição: Retorna uma mensagem simples indicando que a API está ativa.
 
-2 . Pesquisar filmes por gênero 
+#2 . Pesquisar filmes por gênero 
 
 GET / pesquisar_por_genero
 
@@ -42,7 +42,7 @@ ERRO 404
 }
 
 
-3 . Alugar um determinado filme 
+#3 . Alugar um determinado filme 
 
 POST/ 
 
@@ -64,7 +64,7 @@ Resposta:
   "message": "Filme alugado com sucesso!"
 }
 
-4 . Atribuir nota a um filme 
+#4 . Atribuir nota a um filme 
 
 POST/
 
@@ -88,7 +88,7 @@ Resposta :
   "message": "Nota atribuída com sucesso! Nova media para o filme 'filme teste' e 7.85."
 }
 
-5 . Listar informações do filme 
+#5 . Listar informações do filme 
 
 GET / listar_informacoes
 
@@ -108,7 +108,7 @@ Resposta:
   "diretor": "Francis Ford Coppola"
 }
 
-6 . Ver aluguéis
+#6 . Ver aluguéis
 
 GET / ver_alugueis 
 
