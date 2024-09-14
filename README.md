@@ -1,8 +1,5 @@
-# FilmesTop
 
-API da FilmesTop
-
-Documentação da API “Filmes Top”
+# Documentação da API “Filmes Top”
 
 # Introdução
 
