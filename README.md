@@ -40,7 +40,7 @@ genero = "drama"
 
 ### 3. Alugar um determinado filme 
 
-#### POST >/alugar 
+#### POST /alugar 
 
 _Permite que um usuário alugue determinado filme._
 
@@ -56,7 +56,7 @@ Exemplo de requisição:
 
 ### 4. Atribuir nota a um filme 
 
-#### POST > /atribuir_nota
+#### POST /atribuir_nota
 
 _Permite que um usuário atribua uma nota para o filme que alugou anteriormente._
 
@@ -74,7 +74,7 @@ Exemplo de requisição:
 
 ### 5. Listar informações do filme 
 
-#### GET > /listar_informacoes
+#### GET /listar_informacoes
 
 _Permite que um usuário liste as informações daquele filme._
 
@@ -87,7 +87,7 @@ Exemplo de requisição:
 
 ### 6. Ver aluguéis
 
-#### GET > /ver_alugueis 
+#### GET /ver_alugueis 
 
 _Permite que um usuário veja o seu histórico de aluguel._
 
