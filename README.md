@@ -33,7 +33,7 @@ _Retorna uma mensagem simples indicando que a API está ativa._
 
 _Retorna uma lista de filmes de determinado gênero._
 
-Exemplo de requisição: 
+Parâmetro: 
 ```
 genero = "drama"
 ```
@@ -46,7 +46,7 @@ _Permite que um usuário alugue determinado filme._
 
 BODY (Json) 
 
-Exemplo de requisição:
+Parâmetro:
 ```
 {
   "usuario_id": 2,
@@ -62,7 +62,7 @@ _Permite que um usuário atribua uma nota para o filme que alugou anteriormente.
 
 BODY (Json)
 
-Exemplo de requisição:
+Parâmetro:
 ```
 {
   "usuario_id": 2,
@@ -78,7 +78,7 @@ Exemplo de requisição:
 
 _Permite que um usuário liste as informações daquele filme._
 
-Exemplo de requisição:
+Parâmetro:
 ```
 {
   filme = "A Viagem de Chihiro"
@@ -91,7 +91,7 @@ Exemplo de requisição:
 
 _Permite que um usuário veja o seu histórico de aluguel._
 
-Exemplo de requisição:
+Parâmetro:
 ```
 {
   "usuario_id": 4
