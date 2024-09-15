@@ -22,7 +22,7 @@ API foi testada no Postman.
 
 ### 1. Homepage
 
-### GET /
+#### GET /
 
 _Retorna uma mensagem simples indicando que a API está ativa._
 
