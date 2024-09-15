@@ -81,7 +81,7 @@ _Permite que um usuário liste as informações daquele filme._
 Exemplo de requisição:
 ```
 {
-  filme = "A Viagen de Chihiro"
+  filme = "A Viagem de Chihiro"
 }
 ```
 
