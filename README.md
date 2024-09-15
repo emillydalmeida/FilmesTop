@@ -16,7 +16,7 @@ API foi testada no Postman.
 
 ## 🎯 Endpoints
 
-### * Homepage
+### *Homepage
 
 ### GET > /
 
