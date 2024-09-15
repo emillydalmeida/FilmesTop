@@ -26,6 +26,11 @@ API foi testada no Postman.
 
 _Retorna uma mensagem simples indicando que a API está ativa._
 
+Saída:
+```
+Filmes Top
+```
+
 
 ### 2. Pesquisar filmes por gênero 
 
@@ -37,6 +42,14 @@ Parâmetro:
 ```
 genero = "drama"
 ```
+Saída:
+```
+{
+  "O Poderoso Chefão"
+  "Miss Violence"
+}
+```
+
 
 ### 3. Alugar um determinado filme 
 
@@ -53,6 +66,13 @@ Parâmetro:
   "filme": "Miss Violence"
 }
 ```
+Saída:
+```
+{
+  "message": "Filme alugado com sucesso!"
+}
+```
+
 
 ### 4. Atribuir nota a um filme 
 
@@ -71,6 +91,12 @@ Parâmetro:
 
 }
 ```
+Saída:
+```
+{
+  "message": "Nota atribuída com sucesso! Nova media para o filme 'filme teste' e 9.0."
+}
+```
 
 ### 5. Listar informações do filme 
 
@@ -82,6 +108,20 @@ Parâmetro:
 ```
 {
   filme = "A Viagem de Chihiro"
+}
+```
+Saída:
+```
+{
+    "ano": 2003,
+    "diretor": "Hayao Miyazaki",
+    "filme_id": 4,
+    "genero": "Fantasia",
+    "nome": "A Viagem de Chihiro",
+    "nome_lower": "a viagem de chihiro",
+    "nota_final": 9.0,
+    "sinopse": "Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los.",
+    "total_avaliacoes": 2
 }
 ```
 
@@ -96,6 +136,22 @@ Parâmetro:
 {
   "usuario_id": 4
 }
+```
+Saída:
+```
+[
+    {
+        "data_locacao": "2022-10-23",
+        "nome": "O Poderoso Chefão",
+        "nota": 8.0
+    },
+    {
+        "data_locacao": "2022-10-29",
+        "nome": "A Viagem de Chihiro",
+        "nota": 8.0
+    },
+
+]
 ```
 
 #### Essa estrutura cobre as funcionalidades principais da API, facilita o entendimento de como consumir os serviços disponíveis e dá informações sobre o formato de resposta e possíveis erros.
