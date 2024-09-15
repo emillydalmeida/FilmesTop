@@ -22,14 +22,14 @@ API foi testada no Postman.
 
 ### 1. Homepage
 
-### GET > /
+### GET /
 
 _Retorna uma mensagem simples indicando que a API está ativa._
 
 
 ### 2. Pesquisar filmes por gênero 
 
-#### GET > /pesquisar_por_genero
+#### GET /pesquisar_por_genero
 
 _Retorna uma lista de filmes de determinado gênero._
 
@@ -40,7 +40,7 @@ genero = "drama"
 
 ### 3. Alugar um determinado filme 
 
-#### POST > /alugar 
+#### POST >/alugar 
 
 _Permite que um usuário alugue determinado filme._
 
