@@ -16,29 +16,29 @@ API foi testada no Postman.
 
 ## 🎯 Endpoints
 
-### *Homepage
+### 1. Homepage
 
 ### GET > /
 
-Descrição: Retorna uma mensagem simples indicando que a API está ativa.
+_Retorna uma mensagem simples indicando que a API está ativa._
 
 
-### - Pesquisar filmes por gênero 
+### 2. Pesquisar filmes por gênero 
 
 #### GET > /pesquisar_por_genero
 
-Descrição: Retorna uma lista de filmes de determinado gênero.
+_Retorna uma lista de filmes de determinado gênero._
 
 Exemplo de requisição: 
 ```
 genero = "drama"
 ```
 
-### - Alugar um determinado filme 
+### 3. Alugar um determinado filme 
 
 #### POST > /alugar 
 
-Descrição : Permite que um usuário alugue determinado filme.
+_Permite que um usuário alugue determinado filme._
 
 BODY (Json) 
 
@@ -50,11 +50,11 @@ Exemplo de requisição:
 }
 ```
 
-### - Atribuir nota a um filme 
+### 4. Atribuir nota a um filme 
 
 #### POST > /atribuir_nota
 
-Descrição : Permite que um usuário atribua uma nota para o filme que alugou anteriormente.
+_Permite que um usuário atribua uma nota para o filme que alugou anteriormente._
 
 BODY (Json)
 
@@ -68,11 +68,11 @@ Exemplo de requisição:
 }
 ```
 
-### - Listar informações do filme 
+### 5. Listar informações do filme 
 
 #### GET > /listar_informacoes
 
-Descrição : Permite que um usuário liste as informações daquele filme.
+_Permite que um usuário liste as informações daquele filme._
 
 Exemplo de requisição:
 ```
@@ -81,11 +81,11 @@ Exemplo de requisição:
 }
 ```
 
-### - Ver aluguéis
+### 6. Ver aluguéis
 
 #### GET > /ver_alugueis 
 
-Descrição : Permite que um usuário veja o seu histórico de aluguel.
+_Permite que um usuário veja o seu histórico de aluguel._
 
 Exemplo de requisição:
 ```
