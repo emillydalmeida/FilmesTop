@@ -10,9 +10,13 @@ A API aceita e responde em formato JSON.
 
 Foi utilizado PostgreSQL para criar o banco de dados relacional.
 
+[Tabelas](bancodedados)
+
 ## 🤖 Testes
 
 API foi testada no Postman.
+
+[Testes](testes)
 
 ## 🎯 Endpoints
 
